@@ -110,3 +110,24 @@ button.ghost{background:#fff; color:var(--beige); border:1px solid var(--brown)}
 @media (max-width: 720px){
   .grid.cols-2{grid-template-columns: 1fr;}
 }
+
+.site-header {
+  padding: 1rem;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-logo {
+  height: 60px;  /* adjust size if needed */
+  width: auto;
+}
+
+.site-title {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
