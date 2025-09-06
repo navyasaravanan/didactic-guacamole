@@ -50,10 +50,10 @@ input, select, textarea, button{
 }
 input:focus, select:focus, textarea:focus{outline:2px solid #c7f0cb; border-color:#a7e2ae}
 button{
-  cursor:pointer; background:var(--green); color:#fff; border:none; font-weight:700;
+  cursor:pointer; background:var(--brown); color:#fff; border:none; font-weight:700;
 }
 button.secondary{background:#111827; color:#fff}
-button.ghost{background:#fff; color:var(--green); border:1px solid var(--green)}
+button.ghost{background:#fff; color:var(--beige); border:1px solid var(--brown)}
 
 .grid{
   display:grid; gap:16px;
