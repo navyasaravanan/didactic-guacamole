@@ -118,11 +118,11 @@ button.ghost{background:#fff; color:var(--beige); border:1px solid var(--brown)}
 .logo-title {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .site-logo {
-  height: 60px;  /* adjust size if needed */
+  height: 25px;  /* adjust size if needed */
   width: auto;
 }
 
