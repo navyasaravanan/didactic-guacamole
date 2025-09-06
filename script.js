@@ -25,9 +25,9 @@ function now(){ return new Date().toISOString(); }
 
 function db(){
   const seedProducts = [
-    { title:'Vintage Denim Jacket', price:25, category:'Clothing', image:'https://via.placeholder.com/600x450?text=EcoFinds+Jacket', description:'Well-loved denim jacket, size M.' },
-    { title:'Used Laptop 8GB/256GB', price:220, category:'Electronics', image:'https://via.placeholder.com/600x450?text=EcoFinds+Laptop', description:'Works great, minor scratches.' },
-    { title:'Wooden Coffee Table', price:60, category:'Furniture', image:'https://via.placeholder.com/600x450?text=EcoFinds+Table', description:'Solid wood, 90x45 cm.' },
+    { title:'Vintage Denim Jacket', price:25, category:'Clothing', image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fused-denim-jacket-for-men-2857218811697.html%3Fsrsltid%3DAfmBOoq_7nBp8NFy_IsT_vHOm28duLW2rBAkpmqyMIKH0ho_U1TfE_EI&psig=AOvVaw0I0IfLiY-gF7mhYhlPQ1P-&ust=1757245537678000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIi15vKHxI8DFQAAAAAdAAAAABAE', description:'Well-loved denim jacket, size M.' },
+    { title:'Used Laptop 8GB/256GB', price:220, category:'Electronics', image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Facsinfotech.co.in%2Fproduct%2Fdell-latitude-7450-used-laptops%2F&psig=AOvVaw313Z1Xgl2_r1zwfI54LkxH&ust=1757245443257000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCZ_c-HxI8DFQAAAAAdAAAAABAE', description:'Works great, minor scratches.' },
+    { title:'Wooden Coffee Table', price:60, category:'Furniture', image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.woodenstreet.com%2Fproduct%2Fjack-coffee-table-with-lift-top-walnut-finish%3Fsrsltid%3DAfmBOoqqSb39wGrYW_CTVzKdLd2EgzUIe6H5nMu2FIWphwMM8GM0em1b&psig=AOvVaw3Jhvnn9J9UGDf-aMFw6j7a&ust=1757245284594000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMj74ISHxI8DFQAAAAAdAAAAABAE', description:'Solid wood, 90x45 cm.' },
   ];
   let users = get(DB_KEYS.users, []);
   let products = get(DB_KEYS.products, []);
