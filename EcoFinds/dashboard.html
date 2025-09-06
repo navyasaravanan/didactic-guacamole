@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoFinds · Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="dashboard">
+  <header id="app-header" class="header"></header>
+
+  <main class="main">
+    <div class="grid cols-2">
+      <div class="card">
+        <h2>Profile</h2>
+        <div class="hr"></div>
+        <div style="display:flex; gap:16px; align-items:center; margin-top:6px">
+          <div class="avatar" id="avatar">U</div>
+          <div class="muted">Update your profile information below.</div>
+        </div>
+        <form id="profile-form" class="grid" style="gap:10px; margin-top:16px">
+          <label>Email<input name="email" type="email" required></label>
+          <label>Username<input name="username" required></label>
+          <label>Password<input name="password" type="password" required></label>
+          <div class="inline">
+            <button type="submit">Save Changes</button>
+            <a class="ghost" href="feed.html">Back</a>
+          </div>
+        </form>
+      </div>
+      <div class="card">
+        <h2>About EcoFinds</h2>
+        <div class="hr"></div>
+        <p class="muted">EcoFinds empowers sustainable consumption by extending product lifecycles and promoting a circular economy. This prototype uses LocalStorage and is ideal for hackathon demos.</p>
+        <ul class="muted">
+          <li>🔐 Local login</li>
+          <li>🛍️ Listings with CRUD</li>
+          <li>🧭 Search & Filters</li>
+          <li>🛒 Cart & Checkout → Purchases</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
