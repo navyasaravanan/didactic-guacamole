@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoFinds · Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cart">
+  <header id="app-header" class="header"></header>
+
+  <main class="main">
+    <div class="card">
+      <div class="card-title">
+        <h2>Your Cart</h2>
+        <button id="checkout">Checkout</button>
+      </div>
+      <div style="margin-top:12px; overflow:auto">
+        <table class="table">
+          <thead><tr><th>Item</th><th>Title</th><th>Price</th><th>Qty</th><th>Action</th></tr></thead>
+          <tbody id="cart-body"></tbody>
+        </table>
+      </div>
+      <div style="display:flex; justify-content:flex-end; margin-top:12px">
+        <strong>Total: <span id="cart-total">₹0</span></strong>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

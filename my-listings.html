@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoFinds · My Listings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="my-listings">
+  <header id="app-header" class="header"></header>
+
+  <main class="main">
+    <div class="card">
+      <div class="card-title">
+        <h2>My Listings</h2>
+        <a class="link" href="add-product.html">+ Add New</a>
+      </div>
+      <div style="margin-top:12px; overflow:auto">
+        <table class="table">
+          <thead><tr><th>Item</th><th>Title</th><th>Price</th><th>Actions</th></tr></thead>
+          <tbody id="mine"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

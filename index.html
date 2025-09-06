@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoFinds · Login / Sign up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+  <header class="header">
+    <div class="wrap">
+      <a class="brand" href="#"><img alt="logo" src="https://via.placeholder.com/64?text=EF"><span>EcoFinds</span></a>
+      <div class="nav"><a href="#" class="muted" style="pointer-events:none">Prototype</a></div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="auth-cards" class="grid cols-2 center card" style="gap:24px">
+      <div>
+        <div class="logo-lg"><img alt="" src="https://via.placeholder.com/64?text=EF"><h2>Welcome back</h2></div>
+        <form id="login-form" class="grid" style="gap:10px">
+          <input name="email" type="email" placeholder="Email" required>
+          <input name="password" type="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+        <p class="muted" style="margin-top:10px">No account? <a href="#" id="to-signup" class="link">Sign up</a></p>
+        <p class="muted" style="margin-top:6px">Try demo: demo@ecofinds.app / demo123</p>
+      </div>
+      <div>
+        <div class="logo-lg"><img alt="" src="https://via.placeholder.com/64?text=EF"><h2>Create account</h2></div>
+        <form id="signup-form" class="grid" style="gap:10px">
+          <input name="username" placeholder="Username" required>
+          <input name="email" type="email" placeholder="Email" required>
+          <input name="password" type="password" placeholder="Password" required>
+          <button type="submit">Sign up</button>
+        </form>
+        <p class="muted" style="margin-top:10px">Already have an account? <a href="#" id="to-login" class="link">Login</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">© 2025 EcoFinds Prototype • LocalStorage only</footer>
+  <script src="script.js"></script>
+</body>
+</html>
